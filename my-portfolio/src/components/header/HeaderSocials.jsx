@@ -5,13 +5,13 @@ import { FaInstagramSquare } from "react-icons/fa";
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
-      <a href="https:.//linkedin.com" target="_blank">
+      <a href="linkedin.com/in/amin-atashkhayer-5343a7196" target="_blank">
         <BsLinkedin />
       </a>
-      <a href="https:.//linkedin.com" target="_blank">
+      <a href="https://github.com/aminatashin" target="_blank">
         <BsGithub />
       </a>
-      <a href="https:.//linkedin.com" target="_blank">
+      <a href="https://www.instagram.com/aminatashin/" target="_blank">
         <FaInstagramSquare />
       </a>
     </div>

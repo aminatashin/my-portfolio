@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME2 from "../../assets/me2.JPG";
+import ME2 from "../../assets/me4.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { RiFolderShield2Line } from "react-icons/ri";
@@ -21,25 +21,20 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experiene</h5>
-              <small>3+ Years working</small>
+              <small>6 monthes of bootcamp</small>
             </article>
-            <article className="about__card">
+            {/* <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
               <small>200</small>
-            </article>
+            </article> */}
             <article className="about__card">
               <RiFolderShield2Line className="about__icon" />
               <h5>Projects</h5>
-              <small>completed</small>
+              <small>4 completed</small>
             </article>
           </div>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-            quia at ullam, atque ab labore repudiandae quasi molestiae
-            reprehenderit sequi velit assumenda veniam facilis quibusdam et
-            culpa, dolores animi. Architecto.
-          </p>
+          <p>Projects: Netflix , Amazon , Spotify , Linkedin</p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>
