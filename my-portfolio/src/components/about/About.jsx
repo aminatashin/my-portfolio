@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME2 from "../../assets/me4.jpg";
+import ME2 from "../../assets/me8.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { RiFolderShield2Line } from "react-icons/ri";
@@ -21,7 +21,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experiene</h5>
-              <small>6 monthes of bootcamp</small>
+              <small>6 months' with Epicode school</small>
             </article>
             {/* <article className="about__card">
               <FiUsers className="about__icon" />

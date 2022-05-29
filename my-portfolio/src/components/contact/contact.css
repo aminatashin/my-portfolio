@@ -12,6 +12,7 @@
 .contact__option {
   background: var(--color-bg-variant);
   padding: 1.2rem;
+  width: 210px;
   border-radius: 1.2rem;
   text-align: center;
   border: 1ox solid transparent;
@@ -48,11 +49,13 @@ textarea {
 @media screen and (max-width: 1024px) {
   .container.contact__container {
     grid-template-columns: 1fr;
+
     gap: 2rem;
   }
 }
 @media screen and (max-width: 600px) {
   .container.contact__container {
     width: var(--container-width-sm);
+    justify-content: center;
   }
 }

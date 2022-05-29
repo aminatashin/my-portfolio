@@ -63,6 +63,8 @@ header {
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
+    overflow: auto;
+    justify-content: center;
   }
   .header__socials,
   .scroll__down {
